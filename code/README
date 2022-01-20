@@ -1,0 +1,29 @@
+REGLES DE COMPILATION
+
+Compilateur : g++
+/!\ Avoir une version de GCC et G++ inférieure strictement à 8.1 sinon CILK n'est pas supporté.
+
+Version de C++ : C++ 2011
+
+Bibliothèques à installer avant de compiler :
+- OpenMP
+- CILK
+- TBB
+
+Compilation des sources dans un terminal avec Make : 
+- Génération du programme de benchmark : make benchmark
+- Génération du programme séquentiel : make multmatrix
+- Génération du programme de test de correction du résultat de calcul : make multimatrixtest
+
+Exécution simple des programmes générés :
+- Benchmark : ./benchmark
+- Programme séquentiel : ./multmatrix
+- Programme de test (vérifie si le résultat est correct) : ./multmatrixtest
+
+L'output du benchmark est en trois parties : résultats par test de matrice (et pour chaque test, 10 temps d'exécution en séquentiel, OpenMP, Cilk et TBB) puis les calculs du minimum / maximum / moyenne de chaque test de matrice, puis les minima/maxima/moyennes sous forme de texte csv.
+
+Exécution du benchmark avec redirection de l'output vers un fichier :
+./benchmark >> fichier.txt
+
+Auteurs : Dorothée Huynh, Haifa Ben Hmida El Abri
+Mars 2021

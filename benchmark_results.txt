@@ -1,0 +1,2077 @@
+# Ce fichier de résultats comporte trois parties
+# 1ère partie : pour chaque taille de matrice,
+# 10 temps d'exécution en séquentiel, OpenMP,
+# Cilk, TBB
+# 2ème partie : pour chaque taille de matrice,
+# minimum, maximum et moyenne du temps d'exécution
+# en séquentiel, OpenMP, Cilk, TBB
+# 3ème partie : pour chaque taille de matrice,
+# les statistiques de la 2ème partie dans un texte
+# formaté comme un CSV. Cela facilite l'import des
+# résultats dans un tableur type Excel.
+
+Runtime per matrix size
+- Two matrices 100x100
+	Sequential: 21 ms
+	Open MP: 9 ms
+	Cilk: 21 ms
+	Tbb: 9 ms
+- Two matrices 100x100
+	Sequential: 19 ms
+	Open MP: 11 ms
+	Cilk: 8 ms
+	Tbb: 9 ms
+- Two matrices 100x100
+	Sequential: 21 ms
+	Open MP: 8 ms
+	Cilk: 7 ms
+	Tbb: 8 ms
+- Two matrices 100x100
+	Sequential: 21 ms
+	Open MP: 8 ms
+	Cilk: 7 ms
+	Tbb: 9 ms
+- Two matrices 100x100
+	Sequential: 20 ms
+	Open MP: 8 ms
+	Cilk: 7 ms
+	Tbb: 8 ms
+- Two matrices 100x100
+	Sequential: 20 ms
+	Open MP: 14 ms
+	Cilk: 13 ms
+	Tbb: 7 ms
+- Two matrices 100x100
+	Sequential: 21 ms
+	Open MP: 8 ms
+	Cilk: 10 ms
+	Tbb: 9 ms
+- Two matrices 100x100
+	Sequential: 19 ms
+	Open MP: 7 ms
+	Cilk: 7 ms
+	Tbb: 8 ms
+- Two matrices 100x100
+	Sequential: 19 ms
+	Open MP: 8 ms
+	Cilk: 9 ms
+	Tbb: 8 ms
+- Two matrices 100x100
+	Sequential: 20 ms
+	Open MP: 8 ms
+	Cilk: 6 ms
+	Tbb: 8 ms
+Runtime per matrix size
+- Two matrices 250x250
+	Sequential: 320 ms
+	Open MP: 129 ms
+	Cilk: 160 ms
+	Tbb: 150 ms
+- Two matrices 250x250
+	Sequential: 406 ms
+	Open MP: 138 ms
+	Cilk: 113 ms
+	Tbb: 130 ms
+- Two matrices 250x250
+	Sequential: 321 ms
+	Open MP: 132 ms
+	Cilk: 107 ms
+	Tbb: 171 ms
+- Two matrices 250x250
+	Sequential: 350 ms
+	Open MP: 127 ms
+	Cilk: 109 ms
+	Tbb: 121 ms
+- Two matrices 250x250
+	Sequential: 319 ms
+	Open MP: 127 ms
+	Cilk: 101 ms
+	Tbb: 120 ms
+- Two matrices 250x250
+	Sequential: 302 ms
+	Open MP: 126 ms
+	Cilk: 100 ms
+	Tbb: 119 ms
+- Two matrices 250x250
+	Sequential: 306 ms
+	Open MP: 126 ms
+	Cilk: 109 ms
+	Tbb: 119 ms
+- Two matrices 250x250
+	Sequential: 304 ms
+	Open MP: 117 ms
+	Cilk: 99 ms
+	Tbb: 118 ms
+- Two matrices 250x250
+	Sequential: 300 ms
+	Open MP: 116 ms
+	Cilk: 101 ms
+	Tbb: 120 ms
+- Two matrices 250x250
+	Sequential: 299 ms
+	Open MP: 117 ms
+	Cilk: 99 ms
+	Tbb: 119 ms
+Runtime per matrix size
+- Two matrices 500x500
+	Sequential: 2497 ms
+	Open MP: 1019 ms
+	Cilk: 805 ms
+	Tbb: 980 ms
+- Two matrices 500x500
+	Sequential: 2493 ms
+	Open MP: 1019 ms
+	Cilk: 804 ms
+	Tbb: 982 ms
+- Two matrices 500x500
+	Sequential: 2490 ms
+	Open MP: 1025 ms
+	Cilk: 840 ms
+	Tbb: 979 ms
+- Two matrices 500x500
+	Sequential: 2499 ms
+	Open MP: 1027 ms
+	Cilk: 801 ms
+	Tbb: 982 ms
+- Two matrices 500x500
+	Sequential: 2490 ms
+	Open MP: 1019 ms
+	Cilk: 891 ms
+	Tbb: 976 ms
+- Two matrices 500x500
+	Sequential: 2489 ms
+	Open MP: 1017 ms
+	Cilk: 892 ms
+	Tbb: 983 ms
+- Two matrices 500x500
+	Sequential: 2491 ms
+	Open MP: 1060 ms
+	Cilk: 800 ms
+	Tbb: 985 ms
+- Two matrices 500x500
+	Sequential: 2488 ms
+	Open MP: 1019 ms
+	Cilk: 859 ms
+	Tbb: 982 ms
+- Two matrices 500x500
+	Sequential: 2490 ms
+	Open MP: 1061 ms
+	Cilk: 829 ms
+	Tbb: 981 ms
+- Two matrices 500x500
+	Sequential: 2489 ms
+	Open MP: 1018 ms
+	Cilk: 800 ms
+	Tbb: 978 ms
+Runtime per matrix size
+- Two matrices 750x750
+	Sequential: 8705 ms
+	Open MP: 3772 ms
+	Cilk: 2841 ms
+	Tbb: 3433 ms
+- Two matrices 750x750
+	Sequential: 8804 ms
+	Open MP: 3764 ms
+	Cilk: 3092 ms
+	Tbb: 3416 ms
+- Two matrices 750x750
+	Sequential: 8864 ms
+	Open MP: 3903 ms
+	Cilk: 2863 ms
+	Tbb: 3424 ms
+- Two matrices 750x750
+	Sequential: 8834 ms
+	Open MP: 3919 ms
+	Cilk: 2935 ms
+	Tbb: 3430 ms
+- Two matrices 750x750
+	Sequential: 8837 ms
+	Open MP: 3925 ms
+	Cilk: 3191 ms
+	Tbb: 3430 ms
+- Two matrices 750x750
+	Sequential: 8695 ms
+	Open MP: 3909 ms
+	Cilk: 2835 ms
+	Tbb: 3432 ms
+- Two matrices 750x750
+	Sequential: 8808 ms
+	Open MP: 3904 ms
+	Cilk: 2884 ms
+	Tbb: 3407 ms
+- Two matrices 750x750
+	Sequential: 8626 ms
+	Open MP: 3917 ms
+	Cilk: 2965 ms
+	Tbb: 3415 ms
+- Two matrices 750x750
+	Sequential: 8987 ms
+	Open MP: 3750 ms
+	Cilk: 3246 ms
+	Tbb: 3413 ms
+- Two matrices 750x750
+	Sequential: 8927 ms
+	Open MP: 3914 ms
+	Cilk: 2932 ms
+	Tbb: 3424 ms
+Runtime per matrix size
+- Two matrices 1000x1000
+	Sequential: 25277 ms
+	Open MP: 10113 ms
+	Cilk: 7924 ms
+	Tbb: 8756 ms
+- Two matrices 1000x1000
+	Sequential: 25606 ms
+	Open MP: 10166 ms
+	Cilk: 7711 ms
+	Tbb: 8744 ms
+- Two matrices 1000x1000
+	Sequential: 25147 ms
+	Open MP: 10481 ms
+	Cilk: 7804 ms
+	Tbb: 8705 ms
+- Two matrices 1000x1000
+	Sequential: 25308 ms
+	Open MP: 10504 ms
+	Cilk: 7707 ms
+	Tbb: 8747 ms
+- Two matrices 1000x1000
+	Sequential: 24642 ms
+	Open MP: 10385 ms
+	Cilk: 7680 ms
+	Tbb: 8852 ms
+- Two matrices 1000x1000
+	Sequential: 24960 ms
+	Open MP: 10279 ms
+	Cilk: 7836 ms
+	Tbb: 8796 ms
+- Two matrices 1000x1000
+	Sequential: 24672 ms
+	Open MP: 10612 ms
+	Cilk: 7691 ms
+	Tbb: 8649 ms
+- Two matrices 1000x1000
+	Sequential: 24924 ms
+	Open MP: 10509 ms
+	Cilk: 7872 ms
+	Tbb: 8639 ms
+- Two matrices 1000x1000
+	Sequential: 25514 ms
+	Open MP: 10443 ms
+	Cilk: 7741 ms
+	Tbb: 8686 ms
+- Two matrices 1000x1000
+	Sequential: 24411 ms
+	Open MP: 10375 ms
+	Cilk: 7829 ms
+	Tbb: 8747 ms
+Runtime per matrix size
+- Two matrices 100x900
+	Sequential: 174 ms
+	Open MP: 68 ms
+	Cilk: 61 ms
+	Tbb: 68 ms
+- Two matrices 100x900
+	Sequential: 175 ms
+	Open MP: 67 ms
+	Cilk: 65 ms
+	Tbb: 72 ms
+- Two matrices 100x900
+	Sequential: 175 ms
+	Open MP: 68 ms
+	Cilk: 64 ms
+	Tbb: 68 ms
+- Two matrices 100x900
+	Sequential: 175 ms
+	Open MP: 67 ms
+	Cilk: 63 ms
+	Tbb: 63 ms
+- Two matrices 100x900
+	Sequential: 174 ms
+	Open MP: 67 ms
+	Cilk: 60 ms
+	Tbb: 69 ms
+- Two matrices 100x900
+	Sequential: 174 ms
+	Open MP: 67 ms
+	Cilk: 59 ms
+	Tbb: 70 ms
+- Two matrices 100x900
+	Sequential: 175 ms
+	Open MP: 68 ms
+	Cilk: 55 ms
+	Tbb: 69 ms
+- Two matrices 100x900
+	Sequential: 174 ms
+	Open MP: 68 ms
+	Cilk: 63 ms
+	Tbb: 69 ms
+- Two matrices 100x900
+	Sequential: 175 ms
+	Open MP: 68 ms
+	Cilk: 64 ms
+	Tbb: 69 ms
+- Two matrices 100x900
+	Sequential: 175 ms
+	Open MP: 67 ms
+	Cilk: 60 ms
+	Tbb: 68 ms
+Runtime per matrix size
+- Two matrices 150x600
+	Sequential: 262 ms
+	Open MP: 102 ms
+	Cilk: 86 ms
+	Tbb: 103 ms
+- Two matrices 150x600
+	Sequential: 262 ms
+	Open MP: 102 ms
+	Cilk: 92 ms
+	Tbb: 103 ms
+- Two matrices 150x600
+	Sequential: 261 ms
+	Open MP: 102 ms
+	Cilk: 93 ms
+	Tbb: 102 ms
+- Two matrices 150x600
+	Sequential: 262 ms
+	Open MP: 102 ms
+	Cilk: 93 ms
+	Tbb: 105 ms
+- Two matrices 150x600
+	Sequential: 261 ms
+	Open MP: 102 ms
+	Cilk: 93 ms
+	Tbb: 103 ms
+- Two matrices 150x600
+	Sequential: 262 ms
+	Open MP: 102 ms
+	Cilk: 84 ms
+	Tbb: 104 ms
+- Two matrices 150x600
+	Sequential: 262 ms
+	Open MP: 103 ms
+	Cilk: 86 ms
+	Tbb: 102 ms
+- Two matrices 150x600
+	Sequential: 263 ms
+	Open MP: 102 ms
+	Cilk: 85 ms
+	Tbb: 104 ms
+- Two matrices 150x600
+	Sequential: 262 ms
+	Open MP: 102 ms
+	Cilk: 93 ms
+	Tbb: 103 ms
+- Two matrices 150x600
+	Sequential: 262 ms
+	Open MP: 103 ms
+	Cilk: 87 ms
+	Tbb: 96 ms
+Runtime per matrix size
+- Two matrices 200x450
+	Sequential: 350 ms
+	Open MP: 135 ms
+	Cilk: 125 ms
+	Tbb: 138 ms
+- Two matrices 200x450
+	Sequential: 348 ms
+	Open MP: 135 ms
+	Cilk: 115 ms
+	Tbb: 138 ms
+- Two matrices 200x450
+	Sequential: 348 ms
+	Open MP: 135 ms
+	Cilk: 119 ms
+	Tbb: 136 ms
+- Two matrices 200x450
+	Sequential: 349 ms
+	Open MP: 136 ms
+	Cilk: 125 ms
+	Tbb: 137 ms
+- Two matrices 200x450
+	Sequential: 348 ms
+	Open MP: 138 ms
+	Cilk: 115 ms
+	Tbb: 141 ms
+- Two matrices 200x450
+	Sequential: 349 ms
+	Open MP: 136 ms
+	Cilk: 119 ms
+	Tbb: 137 ms
+- Two matrices 200x450
+	Sequential: 349 ms
+	Open MP: 137 ms
+	Cilk: 111 ms
+	Tbb: 138 ms
+- Two matrices 200x450
+	Sequential: 348 ms
+	Open MP: 135 ms
+	Cilk: 110 ms
+	Tbb: 137 ms
+- Two matrices 200x450
+	Sequential: 348 ms
+	Open MP: 136 ms
+	Cilk: 114 ms
+	Tbb: 137 ms
+- Two matrices 200x450
+	Sequential: 348 ms
+	Open MP: 136 ms
+	Cilk: 125 ms
+	Tbb: 138 ms
+Runtime per matrix size
+- Two matrices 300x300
+	Sequential: 521 ms
+	Open MP: 205 ms
+	Cilk: 168 ms
+	Tbb: 206 ms
+- Two matrices 300x300
+	Sequential: 521 ms
+	Open MP: 205 ms
+	Cilk: 188 ms
+	Tbb: 207 ms
+- Two matrices 300x300
+	Sequential: 521 ms
+	Open MP: 205 ms
+	Cilk: 165 ms
+	Tbb: 207 ms
+- Two matrices 300x300
+	Sequential: 521 ms
+	Open MP: 205 ms
+	Cilk: 171 ms
+	Tbb: 208 ms
+- Two matrices 300x300
+	Sequential: 521 ms
+	Open MP: 205 ms
+	Cilk: 173 ms
+	Tbb: 207 ms
+- Two matrices 300x300
+	Sequential: 521 ms
+	Open MP: 204 ms
+	Cilk: 167 ms
+	Tbb: 206 ms
+- Two matrices 300x300
+	Sequential: 520 ms
+	Open MP: 205 ms
+	Cilk: 172 ms
+	Tbb: 206 ms
+- Two matrices 300x300
+	Sequential: 520 ms
+	Open MP: 205 ms
+	Cilk: 173 ms
+	Tbb: 206 ms
+- Two matrices 300x300
+	Sequential: 521 ms
+	Open MP: 205 ms
+	Cilk: 186 ms
+	Tbb: 208 ms
+- Two matrices 300x300
+	Sequential: 524 ms
+	Open MP: 205 ms
+	Cilk: 185 ms
+	Tbb: 208 ms
+Runtime per matrix size
+- Two matrices 450x200
+	Sequential: 791 ms
+	Open MP: 311 ms
+	Cilk: 250 ms
+	Tbb: 313 ms
+- Two matrices 450x200
+	Sequential: 793 ms
+	Open MP: 312 ms
+	Cilk: 263 ms
+	Tbb: 312 ms
+- Two matrices 450x200
+	Sequential: 789 ms
+	Open MP: 312 ms
+	Cilk: 283 ms
+	Tbb: 313 ms
+- Two matrices 450x200
+	Sequential: 790 ms
+	Open MP: 311 ms
+	Cilk: 286 ms
+	Tbb: 312 ms
+- Two matrices 450x200
+	Sequential: 790 ms
+	Open MP: 311 ms
+	Cilk: 271 ms
+	Tbb: 312 ms
+- Two matrices 450x200
+	Sequential: 789 ms
+	Open MP: 312 ms
+	Cilk: 262 ms
+	Tbb: 313 ms
+- Two matrices 450x200
+	Sequential: 799 ms
+	Open MP: 312 ms
+	Cilk: 250 ms
+	Tbb: 312 ms
+- Two matrices 450x200
+	Sequential: 790 ms
+	Open MP: 312 ms
+	Cilk: 260 ms
+	Tbb: 313 ms
+- Two matrices 450x200
+	Sequential: 789 ms
+	Open MP: 312 ms
+	Cilk: 251 ms
+	Tbb: 313 ms
+- Two matrices 450x200
+	Sequential: 790 ms
+	Open MP: 311 ms
+	Cilk: 253 ms
+	Tbb: 314 ms
+Runtime per matrix size
+- Two matrices 600x150
+	Sequential: 1056 ms
+	Open MP: 406 ms
+	Cilk: 331 ms
+	Tbb: 414 ms
+- Two matrices 600x150
+	Sequential: 1055 ms
+	Open MP: 405 ms
+	Cilk: 332 ms
+	Tbb: 412 ms
+- Two matrices 600x150
+	Sequential: 1057 ms
+	Open MP: 405 ms
+	Cilk: 372 ms
+	Tbb: 413 ms
+- Two matrices 600x150
+	Sequential: 1056 ms
+	Open MP: 405 ms
+	Cilk: 330 ms
+	Tbb: 413 ms
+- Two matrices 600x150
+	Sequential: 1056 ms
+	Open MP: 405 ms
+	Cilk: 356 ms
+	Tbb: 413 ms
+- Two matrices 600x150
+	Sequential: 1057 ms
+	Open MP: 405 ms
+	Cilk: 351 ms
+	Tbb: 412 ms
+- Two matrices 600x150
+	Sequential: 1057 ms
+	Open MP: 405 ms
+	Cilk: 335 ms
+	Tbb: 413 ms
+- Two matrices 600x150
+	Sequential: 1056 ms
+	Open MP: 406 ms
+	Cilk: 334 ms
+	Tbb: 413 ms
+- Two matrices 600x150
+	Sequential: 1056 ms
+	Open MP: 406 ms
+	Cilk: 343 ms
+	Tbb: 413 ms
+- Two matrices 600x150
+	Sequential: 1057 ms
+	Open MP: 405 ms
+	Cilk: 339 ms
+	Tbb: 412 ms
+Runtime per matrix size
+- Two matrices 900x100
+	Sequential: 1596 ms
+	Open MP: 619 ms
+	Cilk: 535 ms
+	Tbb: 626 ms
+- Two matrices 900x100
+	Sequential: 1600 ms
+	Open MP: 620 ms
+	Cilk: 533 ms
+	Tbb: 624 ms
+- Two matrices 900x100
+	Sequential: 1595 ms
+	Open MP: 621 ms
+	Cilk: 565 ms
+	Tbb: 625 ms
+- Two matrices 900x100
+	Sequential: 1592 ms
+	Open MP: 621 ms
+	Cilk: 524 ms
+	Tbb: 625 ms
+- Two matrices 900x100
+	Sequential: 1594 ms
+	Open MP: 621 ms
+	Cilk: 515 ms
+	Tbb: 623 ms
+- Two matrices 900x100
+	Sequential: 1596 ms
+	Open MP: 621 ms
+	Cilk: 504 ms
+	Tbb: 625 ms
+- Two matrices 900x100
+	Sequential: 1593 ms
+	Open MP: 621 ms
+	Cilk: 513 ms
+	Tbb: 625 ms
+- Two matrices 900x100
+	Sequential: 1593 ms
+	Open MP: 619 ms
+	Cilk: 513 ms
+	Tbb: 623 ms
+- Two matrices 900x100
+	Sequential: 1597 ms
+	Open MP: 620 ms
+	Cilk: 514 ms
+	Tbb: 632 ms
+- Two matrices 900x100
+	Sequential: 1594 ms
+	Open MP: 619 ms
+	Cilk: 501 ms
+	Tbb: 623 ms
+Runtime per matrix size
+- Two matrices 100x1000
+	Sequential: 195 ms
+	Open MP: 76 ms
+	Cilk: 73 ms
+	Tbb: 76 ms
+- Two matrices 100x1000
+	Sequential: 194 ms
+	Open MP: 76 ms
+	Cilk: 61 ms
+	Tbb: 77 ms
+- Two matrices 100x1000
+	Sequential: 194 ms
+	Open MP: 76 ms
+	Cilk: 62 ms
+	Tbb: 76 ms
+- Two matrices 100x1000
+	Sequential: 194 ms
+	Open MP: 75 ms
+	Cilk: 65 ms
+	Tbb: 76 ms
+- Two matrices 100x1000
+	Sequential: 195 ms
+	Open MP: 76 ms
+	Cilk: 67 ms
+	Tbb: 76 ms
+- Two matrices 100x1000
+	Sequential: 195 ms
+	Open MP: 75 ms
+	Cilk: 64 ms
+	Tbb: 77 ms
+- Two matrices 100x1000
+	Sequential: 195 ms
+	Open MP: 75 ms
+	Cilk: 72 ms
+	Tbb: 74 ms
+- Two matrices 100x1000
+	Sequential: 194 ms
+	Open MP: 75 ms
+	Cilk: 68 ms
+	Tbb: 77 ms
+- Two matrices 100x1000
+	Sequential: 194 ms
+	Open MP: 76 ms
+	Cilk: 62 ms
+	Tbb: 77 ms
+- Two matrices 100x1000
+	Sequential: 195 ms
+	Open MP: 75 ms
+	Cilk: 69 ms
+	Tbb: 76 ms
+Runtime per matrix size
+- Two matrices 100x2000
+	Sequential: 404 ms
+	Open MP: 157 ms
+	Cilk: 128 ms
+	Tbb: 156 ms
+- Two matrices 100x2000
+	Sequential: 402 ms
+	Open MP: 157 ms
+	Cilk: 145 ms
+	Tbb: 156 ms
+- Two matrices 100x2000
+	Sequential: 403 ms
+	Open MP: 157 ms
+	Cilk: 149 ms
+	Tbb: 156 ms
+- Two matrices 100x2000
+	Sequential: 403 ms
+	Open MP: 158 ms
+	Cilk: 139 ms
+	Tbb: 156 ms
+- Two matrices 100x2000
+	Sequential: 402 ms
+	Open MP: 167 ms
+	Cilk: 146 ms
+	Tbb: 159 ms
+- Two matrices 100x2000
+	Sequential: 403 ms
+	Open MP: 168 ms
+	Cilk: 143 ms
+	Tbb: 156 ms
+- Two matrices 100x2000
+	Sequential: 402 ms
+	Open MP: 157 ms
+	Cilk: 145 ms
+	Tbb: 156 ms
+- Two matrices 100x2000
+	Sequential: 402 ms
+	Open MP: 157 ms
+	Cilk: 140 ms
+	Tbb: 155 ms
+- Two matrices 100x2000
+	Sequential: 402 ms
+	Open MP: 157 ms
+	Cilk: 145 ms
+	Tbb: 156 ms
+- Two matrices 100x2000
+	Sequential: 403 ms
+	Open MP: 157 ms
+	Cilk: 134 ms
+	Tbb: 156 ms
+Runtime per matrix size
+- Two matrices 100x3000
+	Sequential: 615 ms
+	Open MP: 239 ms
+	Cilk: 205 ms
+	Tbb: 230 ms
+- Two matrices 100x3000
+	Sequential: 611 ms
+	Open MP: 239 ms
+	Cilk: 192 ms
+	Tbb: 233 ms
+- Two matrices 100x3000
+	Sequential: 609 ms
+	Open MP: 239 ms
+	Cilk: 194 ms
+	Tbb: 234 ms
+- Two matrices 100x3000
+	Sequential: 609 ms
+	Open MP: 266 ms
+	Cilk: 192 ms
+	Tbb: 240 ms
+- Two matrices 100x3000
+	Sequential: 610 ms
+	Open MP: 248 ms
+	Cilk: 191 ms
+	Tbb: 235 ms
+- Two matrices 100x3000
+	Sequential: 611 ms
+	Open MP: 246 ms
+	Cilk: 207 ms
+	Tbb: 235 ms
+- Two matrices 100x3000
+	Sequential: 610 ms
+	Open MP: 245 ms
+	Cilk: 192 ms
+	Tbb: 235 ms
+- Two matrices 100x3000
+	Sequential: 611 ms
+	Open MP: 240 ms
+	Cilk: 193 ms
+	Tbb: 238 ms
+- Two matrices 100x3000
+	Sequential: 609 ms
+	Open MP: 247 ms
+	Cilk: 213 ms
+	Tbb: 235 ms
+- Two matrices 100x3000
+	Sequential: 610 ms
+	Open MP: 239 ms
+	Cilk: 207 ms
+	Tbb: 255 ms
+Runtime per matrix size
+- Two matrices 100x4000
+	Sequential: 816 ms
+	Open MP: 321 ms
+	Cilk: 259 ms
+	Tbb: 314 ms
+- Two matrices 100x4000
+	Sequential: 813 ms
+	Open MP: 320 ms
+	Cilk: 277 ms
+	Tbb: 319 ms
+- Two matrices 100x4000
+	Sequential: 813 ms
+	Open MP: 321 ms
+	Cilk: 257 ms
+	Tbb: 313 ms
+- Two matrices 100x4000
+	Sequential: 813 ms
+	Open MP: 321 ms
+	Cilk: 295 ms
+	Tbb: 306 ms
+- Two matrices 100x4000
+	Sequential: 814 ms
+	Open MP: 320 ms
+	Cilk: 283 ms
+	Tbb: 312 ms
+- Two matrices 100x4000
+	Sequential: 814 ms
+	Open MP: 321 ms
+	Cilk: 284 ms
+	Tbb: 312 ms
+- Two matrices 100x4000
+	Sequential: 812 ms
+	Open MP: 321 ms
+	Cilk: 272 ms
+	Tbb: 312 ms
+- Two matrices 100x4000
+	Sequential: 817 ms
+	Open MP: 320 ms
+	Cilk: 301 ms
+	Tbb: 312 ms
+- Two matrices 100x4000
+	Sequential: 815 ms
+	Open MP: 320 ms
+	Cilk: 267 ms
+	Tbb: 321 ms
+- Two matrices 100x4000
+	Sequential: 811 ms
+	Open MP: 321 ms
+	Cilk: 280 ms
+	Tbb: 312 ms
+Runtime per matrix size
+- Two matrices 100x5000
+	Sequential: 1035 ms
+	Open MP: 412 ms
+	Cilk: 341 ms
+	Tbb: 397 ms
+- Two matrices 100x5000
+	Sequential: 1019 ms
+	Open MP: 412 ms
+	Cilk: 326 ms
+	Tbb: 389 ms
+- Two matrices 100x5000
+	Sequential: 1020 ms
+	Open MP: 412 ms
+	Cilk: 348 ms
+	Tbb: 405 ms
+- Two matrices 100x5000
+	Sequential: 1019 ms
+	Open MP: 412 ms
+	Cilk: 354 ms
+	Tbb: 397 ms
+- Two matrices 100x5000
+	Sequential: 1019 ms
+	Open MP: 412 ms
+	Cilk: 374 ms
+	Tbb: 389 ms
+- Two matrices 100x5000
+	Sequential: 1020 ms
+	Open MP: 411 ms
+	Cilk: 341 ms
+	Tbb: 397 ms
+- Two matrices 100x5000
+	Sequential: 1025 ms
+	Open MP: 407 ms
+	Cilk: 360 ms
+	Tbb: 396 ms
+- Two matrices 100x5000
+	Sequential: 1022 ms
+	Open MP: 407 ms
+	Cilk: 354 ms
+	Tbb: 396 ms
+- Two matrices 100x5000
+	Sequential: 1021 ms
+	Open MP: 412 ms
+	Cilk: 355 ms
+	Tbb: 395 ms
+- Two matrices 100x5000
+	Sequential: 1019 ms
+	Open MP: 407 ms
+	Cilk: 340 ms
+	Tbb: 396 ms
+Runtime per matrix size
+- Two matrices 100x6000
+	Sequential: 1268 ms
+	Open MP: 511 ms
+	Cilk: 432 ms
+	Tbb: 493 ms
+- Two matrices 100x6000
+	Sequential: 1251 ms
+	Open MP: 493 ms
+	Cilk: 448 ms
+	Tbb: 493 ms
+- Two matrices 100x6000
+	Sequential: 1248 ms
+	Open MP: 528 ms
+	Cilk: 435 ms
+	Tbb: 494 ms
+- Two matrices 100x6000
+	Sequential: 1244 ms
+	Open MP: 519 ms
+	Cilk: 421 ms
+	Tbb: 495 ms
+- Two matrices 100x6000
+	Sequential: 1241 ms
+	Open MP: 523 ms
+	Cilk: 434 ms
+	Tbb: 493 ms
+- Two matrices 100x6000
+	Sequential: 1281 ms
+	Open MP: 531 ms
+	Cilk: 450 ms
+	Tbb: 486 ms
+- Two matrices 100x6000
+	Sequential: 1275 ms
+	Open MP: 522 ms
+	Cilk: 435 ms
+	Tbb: 493 ms
+- Two matrices 100x6000
+	Sequential: 1231 ms
+	Open MP: 531 ms
+	Cilk: 434 ms
+	Tbb: 481 ms
+- Two matrices 100x6000
+	Sequential: 1233 ms
+	Open MP: 511 ms
+	Cilk: 420 ms
+	Tbb: 486 ms
+- Two matrices 100x6000
+	Sequential: 1233 ms
+	Open MP: 507 ms
+	Cilk: 464 ms
+	Tbb: 493 ms
+Runtime per matrix size
+- Two matrices 100x7000
+	Sequential: 1460 ms
+	Open MP: 602 ms
+	Cilk: 494 ms
+	Tbb: 594 ms
+- Two matrices 100x7000
+	Sequential: 1512 ms
+	Open MP: 598 ms
+	Cilk: 485 ms
+	Tbb: 585 ms
+- Two matrices 100x7000
+	Sequential: 1522 ms
+	Open MP: 601 ms
+	Cilk: 516 ms
+	Tbb: 588 ms
+- Two matrices 100x7000
+	Sequential: 1453 ms
+	Open MP: 595 ms
+	Cilk: 478 ms
+	Tbb: 587 ms
+- Two matrices 100x7000
+	Sequential: 1508 ms
+	Open MP: 594 ms
+	Cilk: 480 ms
+	Tbb: 578 ms
+- Two matrices 100x7000
+	Sequential: 1521 ms
+	Open MP: 605 ms
+	Cilk: 524 ms
+	Tbb: 605 ms
+- Two matrices 100x7000
+	Sequential: 1508 ms
+	Open MP: 604 ms
+	Cilk: 482 ms
+	Tbb: 579 ms
+- Two matrices 100x7000
+	Sequential: 1510 ms
+	Open MP: 597 ms
+	Cilk: 482 ms
+	Tbb: 607 ms
+- Two matrices 100x7000
+	Sequential: 1516 ms
+	Open MP: 597 ms
+	Cilk: 521 ms
+	Tbb: 588 ms
+- Two matrices 100x7000
+	Sequential: 1520 ms
+	Open MP: 630 ms
+	Cilk: 485 ms
+	Tbb: 585 ms
+Runtime per matrix size
+- Two matrices 100x8000
+	Sequential: 1845 ms
+	Open MP: 717 ms
+	Cilk: 616 ms
+	Tbb: 709 ms
+- Two matrices 100x8000
+	Sequential: 1678 ms
+	Open MP: 722 ms
+	Cilk: 640 ms
+	Tbb: 708 ms
+- Two matrices 100x8000
+	Sequential: 1673 ms
+	Open MP: 718 ms
+	Cilk: 615 ms
+	Tbb: 713 ms
+- Two matrices 100x8000
+	Sequential: 1673 ms
+	Open MP: 690 ms
+	Cilk: 560 ms
+	Tbb: 709 ms
+- Two matrices 100x8000
+	Sequential: 1670 ms
+	Open MP: 707 ms
+	Cilk: 636 ms
+	Tbb: 706 ms
+- Two matrices 100x8000
+	Sequential: 1670 ms
+	Open MP: 709 ms
+	Cilk: 639 ms
+	Tbb: 720 ms
+- Two matrices 100x8000
+	Sequential: 1672 ms
+	Open MP: 709 ms
+	Cilk: 641 ms
+	Tbb: 712 ms
+- Two matrices 100x8000
+	Sequential: 1668 ms
+	Open MP: 716 ms
+	Cilk: 569 ms
+	Tbb: 705 ms
+- Two matrices 100x8000
+	Sequential: 1672 ms
+	Open MP: 717 ms
+	Cilk: 603 ms
+	Tbb: 709 ms
+- Two matrices 100x8000
+	Sequential: 1669 ms
+	Open MP: 715 ms
+	Cilk: 589 ms
+	Tbb: 709 ms
+Runtime per matrix size
+- Two matrices 100x9000
+	Sequential: 2032 ms
+	Open MP: 859 ms
+	Cilk: 706 ms
+	Tbb: 858 ms
+- Two matrices 100x9000
+	Sequential: 2141 ms
+	Open MP: 840 ms
+	Cilk: 746 ms
+	Tbb: 847 ms
+- Two matrices 100x9000
+	Sequential: 2125 ms
+	Open MP: 862 ms
+	Cilk: 806 ms
+	Tbb: 846 ms
+- Two matrices 100x9000
+	Sequential: 2091 ms
+	Open MP: 854 ms
+	Cilk: 690 ms
+	Tbb: 830 ms
+- Two matrices 100x9000
+	Sequential: 2106 ms
+	Open MP: 868 ms
+	Cilk: 647 ms
+	Tbb: 822 ms
+- Two matrices 100x9000
+	Sequential: 2097 ms
+	Open MP: 859 ms
+	Cilk: 791 ms
+	Tbb: 843 ms
+- Two matrices 100x9000
+	Sequential: 2101 ms
+	Open MP: 858 ms
+	Cilk: 804 ms
+	Tbb: 836 ms
+- Two matrices 100x9000
+	Sequential: 2071 ms
+	Open MP: 865 ms
+	Cilk: 780 ms
+	Tbb: 837 ms
+- Two matrices 100x9000
+	Sequential: 2098 ms
+	Open MP: 841 ms
+	Cilk: 678 ms
+	Tbb: 820 ms
+- Two matrices 100x9000
+	Sequential: 2095 ms
+	Open MP: 836 ms
+	Cilk: 683 ms
+	Tbb: 806 ms
+Runtime per matrix size
+- Two matrices 100x10000
+	Sequential: 2613 ms
+	Open MP: 994 ms
+	Cilk: 764 ms
+	Tbb: 923 ms
+- Two matrices 100x10000
+	Sequential: 2617 ms
+	Open MP: 932 ms
+	Cilk: 886 ms
+	Tbb: 923 ms
+- Two matrices 100x10000
+	Sequential: 2615 ms
+	Open MP: 992 ms
+	Cilk: 851 ms
+	Tbb: 898 ms
+- Two matrices 100x10000
+	Sequential: 2651 ms
+	Open MP: 949 ms
+	Cilk: 802 ms
+	Tbb: 935 ms
+- Two matrices 100x10000
+	Sequential: 2618 ms
+	Open MP: 974 ms
+	Cilk: 887 ms
+	Tbb: 914 ms
+- Two matrices 100x10000
+	Sequential: 2624 ms
+	Open MP: 980 ms
+	Cilk: 857 ms
+	Tbb: 925 ms
+- Two matrices 100x10000
+	Sequential: 2614 ms
+	Open MP: 978 ms
+	Cilk: 804 ms
+	Tbb: 922 ms
+- Two matrices 100x10000
+	Sequential: 2613 ms
+	Open MP: 964 ms
+	Cilk: 826 ms
+	Tbb: 919 ms
+- Two matrices 100x10000
+	Sequential: 2616 ms
+	Open MP: 971 ms
+	Cilk: 758 ms
+	Tbb: 913 ms
+- Two matrices 100x10000
+	Sequential: 2617 ms
+	Open MP: 985 ms
+	Cilk: 865 ms
+	Tbb: 912 ms
+Runtime per matrix size
+- Two matrices 1000x100
+	Sequential: 1972 ms
+	Open MP: 771 ms
+	Cilk: 620 ms
+	Tbb: 775 ms
+- Two matrices 1000x100
+	Sequential: 1969 ms
+	Open MP: 771 ms
+	Cilk: 638 ms
+	Tbb: 774 ms
+- Two matrices 1000x100
+	Sequential: 1981 ms
+	Open MP: 771 ms
+	Cilk: 707 ms
+	Tbb: 771 ms
+- Two matrices 1000x100
+	Sequential: 1973 ms
+	Open MP: 786 ms
+	Cilk: 698 ms
+	Tbb: 772 ms
+- Two matrices 1000x100
+	Sequential: 1970 ms
+	Open MP: 783 ms
+	Cilk: 700 ms
+	Tbb: 770 ms
+- Two matrices 1000x100
+	Sequential: 1973 ms
+	Open MP: 773 ms
+	Cilk: 699 ms
+	Tbb: 776 ms
+- Two matrices 1000x100
+	Sequential: 1971 ms
+	Open MP: 772 ms
+	Cilk: 618 ms
+	Tbb: 774 ms
+- Two matrices 1000x100
+	Sequential: 1976 ms
+	Open MP: 771 ms
+	Cilk: 675 ms
+	Tbb: 771 ms
+- Two matrices 1000x100
+	Sequential: 1974 ms
+	Open MP: 786 ms
+	Cilk: 618 ms
+	Tbb: 771 ms
+- Two matrices 1000x100
+	Sequential: 1972 ms
+	Open MP: 783 ms
+	Cilk: 647 ms
+	Tbb: 771 ms
+Runtime per matrix size
+- Two matrices 2000x100
+	Sequential: 7941 ms
+	Open MP: 3098 ms
+	Cilk: 2495 ms
+	Tbb: 3086 ms
+- Two matrices 2000x100
+	Sequential: 7903 ms
+	Open MP: 3098 ms
+	Cilk: 2588 ms
+	Tbb: 3085 ms
+- Two matrices 2000x100
+	Sequential: 7918 ms
+	Open MP: 3252 ms
+	Cilk: 2789 ms
+	Tbb: 3093 ms
+- Two matrices 2000x100
+	Sequential: 7901 ms
+	Open MP: 3099 ms
+	Cilk: 2552 ms
+	Tbb: 3087 ms
+- Two matrices 2000x100
+	Sequential: 7910 ms
+	Open MP: 3100 ms
+	Cilk: 2490 ms
+	Tbb: 3087 ms
+- Two matrices 2000x100
+	Sequential: 7905 ms
+	Open MP: 3111 ms
+	Cilk: 2541 ms
+	Tbb: 3084 ms
+- Two matrices 2000x100
+	Sequential: 7906 ms
+	Open MP: 3099 ms
+	Cilk: 2507 ms
+	Tbb: 3086 ms
+- Two matrices 2000x100
+	Sequential: 7901 ms
+	Open MP: 3102 ms
+	Cilk: 2702 ms
+	Tbb: 3089 ms
+- Two matrices 2000x100
+	Sequential: 7905 ms
+	Open MP: 3102 ms
+	Cilk: 2533 ms
+	Tbb: 3084 ms
+- Two matrices 2000x100
+	Sequential: 7895 ms
+	Open MP: 3124 ms
+	Cilk: 2487 ms
+	Tbb: 3085 ms
+Runtime per matrix size
+- Two matrices 3000x100
+	Sequential: 17786 ms
+	Open MP: 7078 ms
+	Cilk: 6125 ms
+	Tbb: 6979 ms
+- Two matrices 3000x100
+	Sequential: 17822 ms
+	Open MP: 7052 ms
+	Cilk: 5730 ms
+	Tbb: 6995 ms
+- Two matrices 3000x100
+	Sequential: 17806 ms
+	Open MP: 7042 ms
+	Cilk: 5703 ms
+	Tbb: 7025 ms
+- Two matrices 3000x100
+	Sequential: 17783 ms
+	Open MP: 7412 ms
+	Cilk: 5727 ms
+	Tbb: 6937 ms
+- Two matrices 3000x100
+	Sequential: 17881 ms
+	Open MP: 7398 ms
+	Cilk: 6421 ms
+	Tbb: 6962 ms
+- Two matrices 3000x100
+	Sequential: 17866 ms
+	Open MP: 7391 ms
+	Cilk: 6392 ms
+	Tbb: 6942 ms
+- Two matrices 3000x100
+	Sequential: 17871 ms
+	Open MP: 7088 ms
+	Cilk: 6399 ms
+	Tbb: 6965 ms
+- Two matrices 3000x100
+	Sequential: 17875 ms
+	Open MP: 7390 ms
+	Cilk: 5627 ms
+	Tbb: 6974 ms
+- Two matrices 3000x100
+	Sequential: 17866 ms
+	Open MP: 7046 ms
+	Cilk: 5717 ms
+	Tbb: 6954 ms
+- Two matrices 3000x100
+	Sequential: 17878 ms
+	Open MP: 7402 ms
+	Cilk: 5652 ms
+	Tbb: 6983 ms
+Runtime per matrix size
+- Two matrices 4000x100
+	Sequential: 32033 ms
+	Open MP: 13548 ms
+	Cilk: 11364 ms
+	Tbb: 12968 ms
+- Two matrices 4000x100
+	Sequential: 32194 ms
+	Open MP: 13098 ms
+	Cilk: 9999 ms
+	Tbb: 12382 ms
+- Two matrices 4000x100
+	Sequential: 32116 ms
+	Open MP: 13081 ms
+	Cilk: 10175 ms
+	Tbb: 12375 ms
+- Two matrices 4000x100
+	Sequential: 31994 ms
+	Open MP: 13112 ms
+	Cilk: 11329 ms
+	Tbb: 12365 ms
+- Two matrices 4000x100
+	Sequential: 32001 ms
+	Open MP: 13124 ms
+	Cilk: 10055 ms
+	Tbb: 12433 ms
+- Two matrices 4000x100
+	Sequential: 32020 ms
+	Open MP: 13147 ms
+	Cilk: 10001 ms
+	Tbb: 12009 ms
+- Two matrices 4000x100
+	Sequential: 31941 ms
+	Open MP: 13144 ms
+	Cilk: 10524 ms
+	Tbb: 13114 ms
+- Two matrices 4000x100
+	Sequential: 32367 ms
+	Open MP: 13167 ms
+	Cilk: 10049 ms
+	Tbb: 12411 ms
+- Two matrices 4000x100
+	Sequential: 32183 ms
+	Open MP: 13118 ms
+	Cilk: 10152 ms
+	Tbb: 12402 ms
+- Two matrices 4000x100
+	Sequential: 31963 ms
+	Open MP: 13085 ms
+	Cilk: 9905 ms
+	Tbb: 12372 ms
+Runtime per matrix size
+- Two matrices 5000x100
+	Sequential: 55655 ms
+	Open MP: 19540 ms
+	Cilk: 15967 ms
+	Tbb: 19405 ms
+- Two matrices 5000x100
+	Sequential: 52413 ms
+	Open MP: 21744 ms
+	Cilk: 16972 ms
+	Tbb: 20038 ms
+- Two matrices 5000x100
+	Sequential: 53812 ms
+	Open MP: 21353 ms
+	Cilk: 15754 ms
+	Tbb: 19447 ms
+- Two matrices 5000x100
+	Sequential: 50426 ms
+	Open MP: 20477 ms
+	Cilk: 16875 ms
+	Tbb: 19395 ms
+- Two matrices 5000x100
+	Sequential: 50389 ms
+	Open MP: 19560 ms
+	Cilk: 15650 ms
+	Tbb: 19399 ms
+- Two matrices 5000x100
+	Sequential: 50630 ms
+	Open MP: 21112 ms
+	Cilk: 16554 ms
+	Tbb: 20177 ms
+- Two matrices 5000x100
+	Sequential: 54690 ms
+	Open MP: 20551 ms
+	Cilk: 16843 ms
+	Tbb: 19379 ms
+- Two matrices 5000x100
+	Sequential: 51597 ms
+	Open MP: 21668 ms
+	Cilk: 17749 ms
+	Tbb: 19334 ms
+- Two matrices 5000x100
+	Sequential: 54671 ms
+	Open MP: 21453 ms
+	Cilk: 16102 ms
+	Tbb: 19562 ms
+- Two matrices 5000x100
+	Sequential: 54726 ms
+	Open MP: 20514 ms
+	Cilk: 15705 ms
+	Tbb: 19992 ms
+Runtime per matrix size
+- Two matrices 6000x100
+	Sequential: 77656 ms
+	Open MP: 29742 ms
+	Cilk: 26261 ms
+	Tbb: 28803 ms
+- Two matrices 6000x100
+	Sequential: 77604 ms
+	Open MP: 29952 ms
+	Cilk: 24217 ms
+	Tbb: 29112 ms
+- Two matrices 6000x100
+	Sequential: 77813 ms
+	Open MP: 30219 ms
+	Cilk: 26538 ms
+	Tbb: 28235 ms
+- Two matrices 6000x100
+	Sequential: 77749 ms
+	Open MP: 28819 ms
+	Cilk: 23997 ms
+	Tbb: 28261 ms
+- Two matrices 6000x100
+	Sequential: 75378 ms
+	Open MP: 29815 ms
+	Cilk: 23929 ms
+	Tbb: 29622 ms
+- Two matrices 6000x100
+	Sequential: 80068 ms
+	Open MP: 30887 ms
+	Cilk: 25436 ms
+	Tbb: 29293 ms
+- Two matrices 6000x100
+	Sequential: 78023 ms
+	Open MP: 30529 ms
+	Cilk: 23554 ms
+	Tbb: 27266 ms
+- Two matrices 6000x100
+	Sequential: 76320 ms
+	Open MP: 29812 ms
+	Cilk: 23621 ms
+	Tbb: 28472 ms
+- Two matrices 6000x100
+	Sequential: 80721 ms
+	Open MP: 28668 ms
+	Cilk: 24376 ms
+	Tbb: 28942 ms
+- Two matrices 6000x100
+	Sequential: 74817 ms
+	Open MP: 29916 ms
+	Cilk: 23419 ms
+	Tbb: 28241 ms
+Runtime per matrix size
+- Two matrices 7000x100
+	Sequential: 108847 ms
+	Open MP: 42156 ms
+	Cilk: 33391 ms
+	Tbb: 38490 ms
+- Two matrices 7000x100
+	Sequential: 104137 ms
+	Open MP: 39820 ms
+	Cilk: 35803 ms
+	Tbb: 38079 ms
+- Two matrices 7000x100
+	Sequential: 103084 ms
+	Open MP: 41918 ms
+	Cilk: 33177 ms
+	Tbb: 38621 ms
+- Two matrices 7000x100
+	Sequential: 109589 ms
+	Open MP: 42527 ms
+	Cilk: 33069 ms
+	Tbb: 38115 ms
+- Two matrices 7000x100
+	Sequential: 110234 ms
+	Open MP: 42015 ms
+	Cilk: 36295 ms
+	Tbb: 39792 ms
+- Two matrices 7000x100
+	Sequential: 108831 ms
+	Open MP: 41676 ms
+	Cilk: 34574 ms
+	Tbb: 39480 ms
+- Two matrices 7000x100
+	Sequential: 112124 ms
+	Open MP: 41760 ms
+	Cilk: 35560 ms
+	Tbb: 39893 ms
+- Two matrices 7000x100
+	Sequential: 108615 ms
+	Open MP: 42576 ms
+	Cilk: 34646 ms
+	Tbb: 38142 ms
+- Two matrices 7000x100
+	Sequential: 112532 ms
+	Open MP: 43546 ms
+	Cilk: 54580 ms
+	Tbb: 55361 ms
+- Two matrices 7000x100
+	Sequential: 119708 ms
+	Open MP: 42664 ms
+	Cilk: 34877 ms
+	Tbb: 40365 ms
+-----------------------------
+Compute some statistics
+Modes: 0 = Sequential, 1 = OpenMP, 2 = Cilk, 3 = TBB
+Test #0in mode 0 : 
+	Minimum 19 ms
+	Maximum 21 ms
+	Mean (floor rounding) 20 ms
+Test #0in mode 1 : 
+	Minimum 7 ms
+	Maximum 14 ms
+	Mean (floor rounding) 8 ms
+Test #0in mode 2 : 
+	Minimum 6 ms
+	Maximum 21 ms
+	Mean (floor rounding) 9 ms
+Test #0in mode 3 : 
+	Minimum 7 ms
+	Maximum 9 ms
+	Mean (floor rounding) 8 ms
+Test #1in mode 0 : 
+	Minimum 299 ms
+	Maximum 406 ms
+	Mean (floor rounding) 322 ms
+Test #1in mode 1 : 
+	Minimum 116 ms
+	Maximum 138 ms
+	Mean (floor rounding) 125 ms
+Test #1in mode 2 : 
+	Minimum 99 ms
+	Maximum 160 ms
+	Mean (floor rounding) 109 ms
+Test #1in mode 3 : 
+	Minimum 118 ms
+	Maximum 171 ms
+	Mean (floor rounding) 128 ms
+Test #2in mode 0 : 
+	Minimum 2488 ms
+	Maximum 2499 ms
+	Mean (floor rounding) 2491 ms
+Test #2in mode 1 : 
+	Minimum 1017 ms
+	Maximum 1061 ms
+	Mean (floor rounding) 1028 ms
+Test #2in mode 2 : 
+	Minimum 800 ms
+	Maximum 892 ms
+	Mean (floor rounding) 832 ms
+Test #2in mode 3 : 
+	Minimum 976 ms
+	Maximum 985 ms
+	Mean (floor rounding) 980 ms
+Test #3in mode 0 : 
+	Minimum 8626 ms
+	Maximum 8987 ms
+	Mean (floor rounding) 8808 ms
+Test #3in mode 1 : 
+	Minimum 3750 ms
+	Maximum 3925 ms
+	Mean (floor rounding) 3867 ms
+Test #3in mode 2 : 
+	Minimum 2835 ms
+	Maximum 3246 ms
+	Mean (floor rounding) 2978 ms
+Test #3in mode 3 : 
+	Minimum 3407 ms
+	Maximum 3433 ms
+	Mean (floor rounding) 3422 ms
+Test #4in mode 0 : 
+	Minimum 24411 ms
+	Maximum 25606 ms
+	Mean (floor rounding) 25046 ms
+Test #4in mode 1 : 
+	Minimum 10113 ms
+	Maximum 10612 ms
+	Mean (floor rounding) 10386 ms
+Test #4in mode 2 : 
+	Minimum 7680 ms
+	Maximum 7924 ms
+	Mean (floor rounding) 7779 ms
+Test #4in mode 3 : 
+	Minimum 8639 ms
+	Maximum 8852 ms
+	Mean (floor rounding) 8732 ms
+Test #5in mode 0 : 
+	Minimum 174 ms
+	Maximum 175 ms
+	Mean (floor rounding) 174 ms
+Test #5in mode 1 : 
+	Minimum 67 ms
+	Maximum 68 ms
+	Mean (floor rounding) 67 ms
+Test #5in mode 2 : 
+	Minimum 55 ms
+	Maximum 65 ms
+	Mean (floor rounding) 61 ms
+Test #5in mode 3 : 
+	Minimum 63 ms
+	Maximum 72 ms
+	Mean (floor rounding) 68 ms
+Test #6in mode 0 : 
+	Minimum 261 ms
+	Maximum 263 ms
+	Mean (floor rounding) 261 ms
+Test #6in mode 1 : 
+	Minimum 102 ms
+	Maximum 103 ms
+	Mean (floor rounding) 102 ms
+Test #6in mode 2 : 
+	Minimum 84 ms
+	Maximum 93 ms
+	Mean (floor rounding) 89 ms
+Test #6in mode 3 : 
+	Minimum 96 ms
+	Maximum 105 ms
+	Mean (floor rounding) 102 ms
+Test #7in mode 0 : 
+	Minimum 348 ms
+	Maximum 350 ms
+	Mean (floor rounding) 348 ms
+Test #7in mode 1 : 
+	Minimum 135 ms
+	Maximum 138 ms
+	Mean (floor rounding) 135 ms
+Test #7in mode 2 : 
+	Minimum 110 ms
+	Maximum 125 ms
+	Mean (floor rounding) 117 ms
+Test #7in mode 3 : 
+	Minimum 136 ms
+	Maximum 141 ms
+	Mean (floor rounding) 137 ms
+Test #8in mode 0 : 
+	Minimum 520 ms
+	Maximum 524 ms
+	Mean (floor rounding) 521 ms
+Test #8in mode 1 : 
+	Minimum 204 ms
+	Maximum 205 ms
+	Mean (floor rounding) 204 ms
+Test #8in mode 2 : 
+	Minimum 165 ms
+	Maximum 188 ms
+	Mean (floor rounding) 174 ms
+Test #8in mode 3 : 
+	Minimum 206 ms
+	Maximum 208 ms
+	Mean (floor rounding) 206 ms
+Test #9in mode 0 : 
+	Minimum 789 ms
+	Maximum 799 ms
+	Mean (floor rounding) 791 ms
+Test #9in mode 1 : 
+	Minimum 311 ms
+	Maximum 312 ms
+	Mean (floor rounding) 311 ms
+Test #9in mode 2 : 
+	Minimum 250 ms
+	Maximum 286 ms
+	Mean (floor rounding) 262 ms
+Test #9in mode 3 : 
+	Minimum 312 ms
+	Maximum 314 ms
+	Mean (floor rounding) 312 ms
+Test #10in mode 0 : 
+	Minimum 1055 ms
+	Maximum 1057 ms
+	Mean (floor rounding) 1056 ms
+Test #10in mode 1 : 
+	Minimum 405 ms
+	Maximum 406 ms
+	Mean (floor rounding) 405 ms
+Test #10in mode 2 : 
+	Minimum 330 ms
+	Maximum 372 ms
+	Mean (floor rounding) 342 ms
+Test #10in mode 3 : 
+	Minimum 412 ms
+	Maximum 414 ms
+	Mean (floor rounding) 412 ms
+Test #11in mode 0 : 
+	Minimum 1592 ms
+	Maximum 1600 ms
+	Mean (floor rounding) 1595 ms
+Test #11in mode 1 : 
+	Minimum 619 ms
+	Maximum 621 ms
+	Mean (floor rounding) 620 ms
+Test #11in mode 2 : 
+	Minimum 501 ms
+	Maximum 565 ms
+	Mean (floor rounding) 521 ms
+Test #11in mode 3 : 
+	Minimum 623 ms
+	Maximum 632 ms
+	Mean (floor rounding) 625 ms
+Test #12in mode 0 : 
+	Minimum 194 ms
+	Maximum 195 ms
+	Mean (floor rounding) 194 ms
+Test #12in mode 1 : 
+	Minimum 75 ms
+	Maximum 76 ms
+	Mean (floor rounding) 75 ms
+Test #12in mode 2 : 
+	Minimum 61 ms
+	Maximum 73 ms
+	Mean (floor rounding) 66 ms
+Test #12in mode 3 : 
+	Minimum 74 ms
+	Maximum 77 ms
+	Mean (floor rounding) 76 ms
+Test #13in mode 0 : 
+	Minimum 402 ms
+	Maximum 404 ms
+	Mean (floor rounding) 402 ms
+Test #13in mode 1 : 
+	Minimum 157 ms
+	Maximum 168 ms
+	Mean (floor rounding) 159 ms
+Test #13in mode 2 : 
+	Minimum 128 ms
+	Maximum 149 ms
+	Mean (floor rounding) 141 ms
+Test #13in mode 3 : 
+	Minimum 155 ms
+	Maximum 159 ms
+	Mean (floor rounding) 156 ms
+Test #14in mode 0 : 
+	Minimum 609 ms
+	Maximum 615 ms
+	Mean (floor rounding) 610 ms
+Test #14in mode 1 : 
+	Minimum 239 ms
+	Maximum 266 ms
+	Mean (floor rounding) 244 ms
+Test #14in mode 2 : 
+	Minimum 191 ms
+	Maximum 213 ms
+	Mean (floor rounding) 198 ms
+Test #14in mode 3 : 
+	Minimum 230 ms
+	Maximum 255 ms
+	Mean (floor rounding) 237 ms
+Test #15in mode 0 : 
+	Minimum 811 ms
+	Maximum 817 ms
+	Mean (floor rounding) 813 ms
+Test #15in mode 1 : 
+	Minimum 320 ms
+	Maximum 321 ms
+	Mean (floor rounding) 320 ms
+Test #15in mode 2 : 
+	Minimum 257 ms
+	Maximum 301 ms
+	Mean (floor rounding) 277 ms
+Test #15in mode 3 : 
+	Minimum 306 ms
+	Maximum 321 ms
+	Mean (floor rounding) 313 ms
+Test #16in mode 0 : 
+	Minimum 1019 ms
+	Maximum 1035 ms
+	Mean (floor rounding) 1021 ms
+Test #16in mode 1 : 
+	Minimum 407 ms
+	Maximum 412 ms
+	Mean (floor rounding) 410 ms
+Test #16in mode 2 : 
+	Minimum 326 ms
+	Maximum 374 ms
+	Mean (floor rounding) 349 ms
+Test #16in mode 3 : 
+	Minimum 389 ms
+	Maximum 405 ms
+	Mean (floor rounding) 395 ms
+Test #17in mode 0 : 
+	Minimum 1231 ms
+	Maximum 1281 ms
+	Mean (floor rounding) 1250 ms
+Test #17in mode 1 : 
+	Minimum 493 ms
+	Maximum 531 ms
+	Mean (floor rounding) 517 ms
+Test #17in mode 2 : 
+	Minimum 420 ms
+	Maximum 464 ms
+	Mean (floor rounding) 437 ms
+Test #17in mode 3 : 
+	Minimum 481 ms
+	Maximum 495 ms
+	Mean (floor rounding) 490 ms
+Test #18in mode 0 : 
+	Minimum 1453 ms
+	Maximum 1522 ms
+	Mean (floor rounding) 1503 ms
+Test #18in mode 1 : 
+	Minimum 594 ms
+	Maximum 630 ms
+	Mean (floor rounding) 602 ms
+Test #18in mode 2 : 
+	Minimum 478 ms
+	Maximum 524 ms
+	Mean (floor rounding) 494 ms
+Test #18in mode 3 : 
+	Minimum 578 ms
+	Maximum 607 ms
+	Mean (floor rounding) 589 ms
+Test #19in mode 0 : 
+	Minimum 1668 ms
+	Maximum 1845 ms
+	Mean (floor rounding) 1689 ms
+Test #19in mode 1 : 
+	Minimum 690 ms
+	Maximum 722 ms
+	Mean (floor rounding) 712 ms
+Test #19in mode 2 : 
+	Minimum 560 ms
+	Maximum 641 ms
+	Mean (floor rounding) 610 ms
+Test #19in mode 3 : 
+	Minimum 705 ms
+	Maximum 720 ms
+	Mean (floor rounding) 710 ms
+Test #20in mode 0 : 
+	Minimum 2032 ms
+	Maximum 2141 ms
+	Mean (floor rounding) 2095 ms
+Test #20in mode 1 : 
+	Minimum 836 ms
+	Maximum 868 ms
+	Mean (floor rounding) 854 ms
+Test #20in mode 2 : 
+	Minimum 647 ms
+	Maximum 806 ms
+	Mean (floor rounding) 733 ms
+Test #20in mode 3 : 
+	Minimum 806 ms
+	Maximum 858 ms
+	Mean (floor rounding) 834 ms
+Test #21in mode 0 : 
+	Minimum 2613 ms
+	Maximum 2651 ms
+	Mean (floor rounding) 2619 ms
+Test #21in mode 1 : 
+	Minimum 932 ms
+	Maximum 994 ms
+	Mean (floor rounding) 971 ms
+Test #21in mode 2 : 
+	Minimum 758 ms
+	Maximum 887 ms
+	Mean (floor rounding) 830 ms
+Test #21in mode 3 : 
+	Minimum 898 ms
+	Maximum 935 ms
+	Mean (floor rounding) 918 ms
+Test #22in mode 0 : 
+	Minimum 1969 ms
+	Maximum 1981 ms
+	Mean (floor rounding) 1973 ms
+Test #22in mode 1 : 
+	Minimum 771 ms
+	Maximum 786 ms
+	Mean (floor rounding) 776 ms
+Test #22in mode 2 : 
+	Minimum 618 ms
+	Maximum 707 ms
+	Mean (floor rounding) 662 ms
+Test #22in mode 3 : 
+	Minimum 770 ms
+	Maximum 776 ms
+	Mean (floor rounding) 772 ms
+Test #23in mode 0 : 
+	Minimum 7895 ms
+	Maximum 7941 ms
+	Mean (floor rounding) 7908 ms
+Test #23in mode 1 : 
+	Minimum 3098 ms
+	Maximum 3252 ms
+	Mean (floor rounding) 3118 ms
+Test #23in mode 2 : 
+	Minimum 2487 ms
+	Maximum 2789 ms
+	Mean (floor rounding) 2568 ms
+Test #23in mode 3 : 
+	Minimum 3084 ms
+	Maximum 3093 ms
+	Mean (floor rounding) 3086 ms
+Test #24in mode 0 : 
+	Minimum 17783 ms
+	Maximum 17881 ms
+	Mean (floor rounding) 17843 ms
+Test #24in mode 1 : 
+	Minimum 7042 ms
+	Maximum 7412 ms
+	Mean (floor rounding) 7229 ms
+Test #24in mode 2 : 
+	Minimum 5627 ms
+	Maximum 6421 ms
+	Mean (floor rounding) 5949 ms
+Test #24in mode 3 : 
+	Minimum 6937 ms
+	Maximum 7025 ms
+	Mean (floor rounding) 6971 ms
+Test #25in mode 0 : 
+	Minimum 31941 ms
+	Maximum 32367 ms
+	Mean (floor rounding) 32081 ms
+Test #25in mode 1 : 
+	Minimum 13081 ms
+	Maximum 13548 ms
+	Mean (floor rounding) 13162 ms
+Test #25in mode 2 : 
+	Minimum 9905 ms
+	Maximum 11364 ms
+	Mean (floor rounding) 10355 ms
+Test #25in mode 3 : 
+	Minimum 12009 ms
+	Maximum 13114 ms
+	Mean (floor rounding) 12483 ms
+Test #26in mode 0 : 
+	Minimum 50389 ms
+	Maximum 55655 ms
+	Mean (floor rounding) 52900 ms
+Test #26in mode 1 : 
+	Minimum 19540 ms
+	Maximum 21744 ms
+	Mean (floor rounding) 20797 ms
+Test #26in mode 2 : 
+	Minimum 15650 ms
+	Maximum 17749 ms
+	Mean (floor rounding) 16417 ms
+Test #26in mode 3 : 
+	Minimum 19334 ms
+	Maximum 20177 ms
+	Mean (floor rounding) 19612 ms
+Test #27in mode 0 : 
+	Minimum 74817 ms
+	Maximum 80721 ms
+	Mean (floor rounding) 77614 ms
+Test #27in mode 1 : 
+	Minimum 28668 ms
+	Maximum 30887 ms
+	Mean (floor rounding) 29835 ms
+Test #27in mode 2 : 
+	Minimum 23419 ms
+	Maximum 26538 ms
+	Mean (floor rounding) 24534 ms
+Test #27in mode 3 : 
+	Minimum 27266 ms
+	Maximum 29622 ms
+	Mean (floor rounding) 28624 ms
+Test #28in mode 0 : 
+	Minimum 103084 ms
+	Maximum 119708 ms
+	Mean (floor rounding) 109770 ms
+Test #28in mode 1 : 
+	Minimum 39820 ms
+	Maximum 43546 ms
+	Mean (floor rounding) 42065 ms
+Test #28in mode 2 : 
+	Minimum 33069 ms
+	Maximum 54580 ms
+	Mean (floor rounding) 36597 ms
+Test #28in mode 3 : 
+	Minimum 38079 ms
+	Maximum 55361 ms
+	Mean (floor rounding) 40633 ms
+-----------------------------
+Print statistics in CSV format
+Minimum,Maximum,Mean
+19,21,20
+7,14,8
+6,21,9
+7,9,8
+299,406,322
+116,138,125
+99,160,109
+118,171,128
+2488,2499,2491
+1017,1061,1028
+800,892,832
+976,985,980
+8626,8987,8808
+3750,3925,3867
+2835,3246,2978
+3407,3433,3422
+24411,25606,25046
+10113,10612,10386
+7680,7924,7779
+8639,8852,8732
+174,175,174
+67,68,67
+55,65,61
+63,72,68
+261,263,261
+102,103,102
+84,93,89
+96,105,102
+348,350,348
+135,138,135
+110,125,117
+136,141,137
+520,524,521
+204,205,204
+165,188,174
+206,208,206
+789,799,791
+311,312,311
+250,286,262
+312,314,312
+1055,1057,1056
+405,406,405
+330,372,342
+412,414,412
+1592,1600,1595
+619,621,620
+501,565,521
+623,632,625
+194,195,194
+75,76,75
+61,73,66
+74,77,76
+402,404,402
+157,168,159
+128,149,141
+155,159,156
+609,615,610
+239,266,244
+191,213,198
+230,255,237
+811,817,813
+320,321,320
+257,301,277
+306,321,313
+1019,1035,1021
+407,412,410
+326,374,349
+389,405,395
+1231,1281,1250
+493,531,517
+420,464,437
+481,495,490
+1453,1522,1503
+594,630,602
+478,524,494
+578,607,589
+1668,1845,1689
+690,722,712
+560,641,610
+705,720,710
+2032,2141,2095
+836,868,854
+647,806,733
+806,858,834
+2613,2651,2619
+932,994,971
+758,887,830
+898,935,918
+1969,1981,1973
+771,786,776
+618,707,662
+770,776,772
+7895,7941,7908
+3098,3252,3118
+2487,2789,2568
+3084,3093,3086
+17783,17881,17843
+7042,7412,7229
+5627,6421,5949
+6937,7025,6971
+31941,32367,32081
+13081,13548,13162
+9905,11364,10355
+12009,13114,12483
+50389,55655,52900
+19540,21744,20797
+15650,17749,16417
+19334,20177,19612
+74817,80721,77614
+28668,30887,29835
+23419,26538,24534
+27266,29622,28624
+103084,119708,109770
+39820,43546,42065
+33069,54580,36597
+38079,55361,40633
